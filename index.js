@@ -2,6 +2,8 @@ const fs = require('fs');
 const http = require('http');
 const url = require('url');
 
+const slugify = require('slugify');
+
 const replace_placeholders = require('./modules/replace_placeholders');
 
 const data_json = fs.readFileSync(`${__dirname}/dev-data/data.json`, 'utf-8');

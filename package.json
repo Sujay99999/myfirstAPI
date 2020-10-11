@@ -1,0 +1,25 @@
+{
+  "name": "myfirstapi",
+  "version": "1.0.0",
+  "description": "learning to create a basic api using only node functionalities",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sujay99999/myfirstAPI.git"
+  },
+  "author": "Sujay Jami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sujay99999/myfirstAPI/issues"
+  },
+  "homepage": "https://github.com/Sujay99999/myfirstAPI#readme",
+  "dependencies": {
+    "slugify": "^1.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

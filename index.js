@@ -12,7 +12,7 @@ const data_obj = JSON.parse(data_json);
 const overview_html = fs.readFileSync(`${__dirname}/templates/overview-template.html`, 'utf-8');
 const product_html = fs.readFileSync(`${__dirname}/templates/product-template.html`, 'utf-8');
 const overview_card_html = fs.readFileSync(`${__dirname}/templates/overview-card-template.html`, 'utf-8');
-
+//hello this is just for an extra commit
 const server = http.createServer((req, res) => {
     //routing
     //const pathName_local = req.url;
